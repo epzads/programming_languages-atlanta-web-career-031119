@@ -1,7 +1,7 @@
 def reformat_languages(languages)
   # your code here
 
-  # your code here	  new_hash = {}
+   new_hash = {}
   languages.each do |style, lang_hash|
     lang_hash.each do |lang, type_hash|
       type_hash.each do |sym, str|
